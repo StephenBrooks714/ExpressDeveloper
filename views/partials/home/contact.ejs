@@ -1,0 +1,20 @@
+<section class="row align-items-center flex-row-reverse" id="contact">
+    <div class="col-lg-5 mb-3">
+        <img src="/assets/envelope.png" class="img-fluid mb-3" alt="Contacting Us For Work">
+        <h5 class="h3 mb-2">Contacting Us For Work</h5>
+        <p class="lead">
+            Getting a hold of us is easy. Once you submit this form, it goes to the phone of the intended party, then you get a response from a gmail account.
+        </p>
+    </div>
+    <div class="col-lg-7 mb-3">
+        <form action="/send/form" method="post" enctype="multipart/form-data">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" name="name" id="name" class="form-control mb-2" required>
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" name="from" id="email" class="form-control mb-2" required>
+            <label for="message" class="form-label">Your Message</label>
+            <textarea name="text" id="message" class="form-control mb-2" cols="30" rows="10"></textarea>
+            <button class="btn btn-primary rounded-pill">submit form</button>
+        </form>
+    </div>
+</section>
